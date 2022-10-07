@@ -1,0 +1,6 @@
+---
+- hosts: all
+
+  become: yes
+  roles:
+    - ~/Downloads/elasticsearch/role/es_role
