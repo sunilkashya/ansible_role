@@ -1,0 +1,25 @@
+# --- 
+author_info: 
+  author: "Sunil kumar"
+  company: opstree
+  
+# ansible version 
+  min_ansible_version: 2.1
+
+dependencies: "openjdk version \"1.8.0_242\""
+
+platforms: 
+  - 
+    name: Debian
+    versions: 
+      - "5 (all)"
+      - "6 (all)"
+      - "7 (all)"
+      - "8 (all)"
+  - 
+    name: Redhat
+    versions:
+      - "5 (all)"
+      - "6 (all)"
+      - "7 (all)"
+      - "8 (all)"
