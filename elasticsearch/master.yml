@@ -3,4 +3,4 @@
 
   become: yes
   roles:
-    - ~/Downloads/elasticsearch/role/es_role
+    - es_role
