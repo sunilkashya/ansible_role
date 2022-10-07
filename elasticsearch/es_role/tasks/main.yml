@@ -1,0 +1,10 @@
+---
+# tasks file for es_role
+- name: Include debianes intallation file
+  include_tasks: debian1.yml
+  when: ansible_os_family == "Debian"
+
+- name: Include redhat intallation file
+  include_tasks: redhat1.yml
+  when: ansible_os_family == "RedHat"
+

@@ -1,0 +1,10 @@
+---
+# vars file for es_role
+# For redhat based system
+redhat_major_version: 7
+redhat_minor_version: 7.17.0
+redhat_GPG_key: https://artifacts.elastic.co/GPG-KEY-elasticsearch
+# For debian based system 
+debian_major_version: 7
+debian_minor_version: 7.17.0
+debian_PGP_key: https://artifacts.elastic.co/GPG-KEY-elasticsearch
